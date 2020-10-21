@@ -13,8 +13,7 @@ namespace WindowsFormsApp1
         public string Adress { get; set; }
         public string SayHello()
         {
-            string a;
-            a = string.Format("你好我是{0}，我今年{1}岁，我家住在{2}", this.Name, this.Age, this.Adress);
+            string a = string.Format("你好我是{0}，我今年{1}岁，我家住在{2}", this.Name, this.Age, this.Adress);
             return a;
         }
     }
