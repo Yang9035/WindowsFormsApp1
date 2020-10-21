@@ -24,7 +24,13 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hello world!");
+            Person p = new Person()
+            {
+                Name = "张三",
+                Age = 20,
+                Adress = "北京市"
+            };
+            MessageBox.Show(p.SayHello());
         }
     }
 }
